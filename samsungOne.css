@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "SamsungOne";
+  src: url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-400.eot");
+  src: url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-400.eot#iefix") format("embedded-opentype"), url("/html/assets/SamsungOne-400.ttf") format("truetype"), url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-400.woff") format("woff"), url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-400.svg#SamsungOne-400") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SamsungOne";
+  src: url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-700.eot");
+  src: url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-700.eot#iefix") format("embedded-opentype"), url("/html/assets/SamsungOne-700.ttf") format("truetype"), url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-700.woff") format("woff"), url("https://stg-eu.community.samsung.com/html/assets/SamsungOne-700.svg#SamsungOne-700") format("svg");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SamsungSharpSansBold";
+  src: url("https://stg-eu.community.samsung.com/html/assets/SamsungSharpSans-Bold.eot");
+  src: url("https://stg-eu.community.samsung.com/html/assets/SamsungSharpSans-Bold.eot#iefix") format("embedded-opentype"), url("/html/assets/SamsungSharpSans-Bold.ttf") format("truetype"), url("https://stg-eu.community.samsung.com/html/assets/SamsungSharpSans-Bold.woff") format("woff"), url("https://stg-eu.community.samsung.com/html/assets/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
