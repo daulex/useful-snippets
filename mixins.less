@@ -1,0 +1,43 @@
+@mobile:      ~"only screen and (max-width: 766px)";
+@tablet:      ~"only screen and (min-width: 767px) and (max-width: 949px)";
+@tablet-up:      ~"only screen and (min-width: 767px)";
+@tablet-down:      ~"only screen and (max-width: 949px)";
+@desktop:     ~"only screen and (min-width: 950px) and (max-width: 1270px)";
+@desktop-xl:  ~"only screen and (min-width: 1270px)";
+@desktop-up:     ~"only screen and (min-width: 950px)";
+
+@ie10: ~"all and (-ms-high-contrast:none)";
+
+.fl{
+  float: left;
+  display: inline;
+}
+.fr{
+  float: right;
+  display: inline;
+}
+.oh{
+  overflow: hidden;
+}
+
+.an{
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+.hide-on-desktop{
+  @media @desktop-up{
+    display: none !important;
+  }
+}
+.hide-on-tablet{
+  @media @tablet{
+    display: none !important;
+  }
+}
+.hide-on-mobile{
+  @media @mobile{
+    display: none !important;
+  }
+}
